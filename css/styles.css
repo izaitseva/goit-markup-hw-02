@@ -1,0 +1,162 @@
+/* осн фон #F5F4FA,
+цвет кнопки, Web и при наведении #2196F3,
+цвет основы и подвала #2F303A,
+цвет заголовков #212121,
+цвет основ текста #757575, #*/
+
+/* main */
+body {
+    background-color: #ffffff;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Стилизация лого */
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.logo-header {
+    color: #212121;
+}
+
+.logo-footer {
+    color: #fff;
+}
+
+/* Верхня частина */
+.link-nav {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.contacts-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+/* Основна частина */
+.main-section {
+    background-color: #2F303A;
+    color: #fff;
+}
+
+.order-button {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+/* Перелік послуг */
+.list-services h3 {
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.list-services p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+/* Перелік послуг-фото */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Команда */
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.team-job p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.team-job h3 {
+    color: #212121
+}
+
+/* Нижня частина */
+
+footer {
+    background-color: #2F303A;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF
+}
+
+/* Portfolio page */
+
+/* Buttons */
+.buttons {
+    background-color: #2196F3;
+    font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.portfolio-list h3 {
+width: 322px;
+height: 36px;
+left: 639px;
+top: 576px;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-list p {
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
