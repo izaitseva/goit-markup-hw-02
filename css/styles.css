@@ -63,6 +63,7 @@ body {
     background-color: #2F303A;
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .order-button {
