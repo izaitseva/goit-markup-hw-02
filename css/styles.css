@@ -21,7 +21,6 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -39,7 +38,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -52,7 +51,7 @@ body {
 .contacts-header {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
@@ -62,6 +61,9 @@ body {
 .main-section {
     background-color: #2F303A;
     color: #fff;
+    text-align: center;
+}
+.main-text {
     text-align: center;
     text-transform: uppercase;
 }
@@ -78,20 +80,18 @@ body {
 
 /* Перелік послуг */
 .list-services h3 {
-    height: 16px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
 .list-services p {
-    position: absolute;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1;
     letter-spacing: 0.03em;
 }
 
@@ -99,7 +99,6 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -139,7 +138,7 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6)
 }
@@ -148,13 +147,13 @@ body {
 
 /* Buttons */
 .btn-list {
-    line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
     display: flex;
     justify-content: center;
     gap: 8px;
+    line-height: 1.62;
 }
 
 .list button {
@@ -183,7 +182,7 @@ body {
 .portfolio-list h3 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -191,7 +190,7 @@ body {
 .portfolio-list p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: #757575;
 }
